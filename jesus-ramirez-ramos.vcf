@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ramírez Ramos;Jesús;;;
+FN:Jesús Ramírez Ramos
+TITLE:Engineering Manager / Tech Lead
+EMAIL;TYPE=INTERNET:contact@jesusramirezramos.com
+TEL;TYPE=CELL:+34645936524
+ADR;TYPE=WORK:;;;Madrid;;;Spain
+URL:https://jesusramirezramos.com
+item1.URL:https://www.linkedin.com/in/kashamalaga/
+item1.X-ABLabel:LinkedIn
+item2.URL:https://github.com/KashaMalaga
+item2.X-ABLabel:GitHub
+NOTE:Engineering Manager with 10+ years at Volkswagen Group. Scaled NADIN from 3 to 25 engineers; AWS Certified Solutions Architect & SAFe.
+END:VCARD

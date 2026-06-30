@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark light" />
+<meta name="robots" content="noindex" />
+<title>Page not found — Jesús Ramírez Ramos</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  .nf { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 6px; }
+  .nf .code { font-family: var(--mono); font-size: 4.5rem; font-weight: 700; color: var(--accent); line-height: 1; letter-spacing: -.02em; }
+  .nf h1 { margin: 8px 0 4px; font-size: 1.4rem; }
+  .nf p { color: var(--text-dim); margin: 0 0 20px; }
+  .nf .cta { justify-content: center; }
+</style>
+</head>
+<body>
+<main class="wrap nf">
+  <div class="code">404</div>
+  <h1>Page not found</h1>
+  <p>That page doesn't exist — but the CV does.</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="/">Go to homepage</a>
+    <a class="btn" href="/cv.pdf">Download CV (PDF)</a>
+  </div>
+</main>
+</body>
+</html>
